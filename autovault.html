@@ -1,0 +1,687 @@
+<!-- =========================
+FILE: index.html
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVault | Luxury Automobile Marketplace</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+    HEADER
+    ========================= -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <div class="logo">
+                Auto<span>Vault</span>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#inventory">Buy</a>
+                <a href="#sell">Sell</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <a href="#sell" class="post-btn">
+                Post An Ad
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- =========================
+    HERO SECTION
+    ========================= -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <!-- LEFT -->
+
+            <div class="hero-content">
+
+                <span class="hero-tag">
+                    Premium Automobile Marketplace
+                </span>
+
+                <h1>
+                    Find Your Next
+                    <span>Luxury Vehicle</span>
+                </h1>
+
+                <p>
+                    Discover premium new and used cars from trusted sellers.
+                    AutoVault provides a luxury marketplace experience designed
+                    for automobile enthusiasts.
+                </p>
+
+                <!-- SEARCH BAR -->
+
+                <div class="search-box">
+
+                    <select>
+                        <option>Choose Make</option>
+                        <option>BMW</option>
+                        <option>Audi</option>
+                        <option>Mercedes</option>
+                        <option>Porsche</option>
+                    </select>
+
+                    <select>
+                        <option>Select Model</option>
+                        <option>M4</option>
+                        <option>RS7</option>
+                        <option>C63</option>
+                    </select>
+
+                    <select>
+                        <option>Price Range</option>
+                        <option>$20k - $50k</option>
+                        <option>$50k - $100k</option>
+                        <option>$100k+</option>
+                    </select>
+
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Search
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="hero-image">
+
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1400&auto=format&fit=crop"
+                    alt="Luxury Car">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+    INVENTORY
+    ========================= -->
+
+    <section class="inventory" id="inventory">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>Featured Inventory</h2>
+
+                <p>
+                    Explore our handpicked premium collection of luxury vehicles.
+                </p>
+
+            </div>
+
+            <!-- CAR GRID -->
+
+            <div class="car-grid">
+
+                <!-- CARD 1 -->
+
+                <div class="car-card">
+
+                    <div class="car-image-wrap">
+
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
+                            alt="BMW">
+
+                        <span class="badge new">
+                            New
+                        </span>
+
+                    </div>
+
+                    <div class="car-content">
+
+                        <h3>2025 BMW M4 Competition</h3>
+
+                        <div class="specs">
+
+                            <div>
+                                <i class="fa-solid fa-road"></i>
+                                12k km
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gear"></i>
+                                Auto
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gas-pump"></i>
+                                Petrol
+                            </div>
+
+                        </div>
+
+                        <div class="price">
+                            $89,900
+                        </div>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 2 -->
+
+                <div class="car-card">
+
+                    <div class="car-image-wrap">
+
+                        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop"
+                            alt="Audi">
+
+                        <span class="badge used">
+                            Used
+                        </span>
+
+                    </div>
+
+                    <div class="car-content">
+
+                        <h3>2024 Audi RS7</h3>
+
+                        <div class="specs">
+
+                            <div>
+                                <i class="fa-solid fa-road"></i>
+                                20k km
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gear"></i>
+                                Auto
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gas-pump"></i>
+                                Hybrid
+                            </div>
+
+                        </div>
+
+                        <div class="price">
+                            $74,500
+                        </div>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 3 -->
+
+                <div class="car-card">
+
+                    <div class="car-image-wrap">
+
+                        <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop"
+                            alt="Mercedes">
+
+                        <span class="badge new">
+                            New
+                        </span>
+
+                    </div>
+
+                    <div class="car-content">
+
+                        <h3>2025 Mercedes AMG GT</h3>
+
+                        <div class="specs">
+
+                            <div>
+                                <i class="fa-solid fa-road"></i>
+                                6k km
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gear"></i>
+                                Manual
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-gas-pump"></i>
+                                Petrol
+                            </div>
+
+                        </div>
+
+                        <div class="price">
+                            $110,000
+                        </div>
+
+                        <a href="#" class="details-btn">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+    SELL SECTION
+    ========================= -->
+
+    <section class="sell-section" id="sell">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>Sell Your Car</h2>
+
+                <p>
+                    List your luxury vehicle and connect with premium buyers.
+                </p>
+
+            </div>
+
+            <div class="sell-wrapper">
+
+                <form class="sell-form">
+
+                    <input type="text" placeholder="Vehicle Title">
+
+                    <input type="number" placeholder="Price">
+
+                    <input type="number" placeholder="Year">
+
+                    <input type="text" placeholder="Brand / Model">
+
+                    <textarea rows="6" class="full-width"
+                        placeholder="Vehicle Description"></textarea>
+
+                    <div class="upload-box full-width">
+
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                        <h4>Drag & Drop Photos</h4>
+
+                        <p>
+                            Upload premium quality vehicle images
+                        </p>
+
+                    </div>
+
+                    <button class="submit-btn full-width">
+                        Submit Listing
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+    ABOUT SECTION
+    ========================= -->
+
+    <section class="about-section" id="about">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>About AutoVault</h2>
+
+                <p>
+                    Redefining the automobile marketplace experience.
+                </p>
+
+            </div>
+
+            <div class="about-grid">
+
+                <!-- LEFT -->
+
+                <div class="about-content">
+
+                    <h3>Our Mission</h3>
+
+                    <p>
+                        AutoVault was built with a simple vision:
+                        create a premium platform where luxury car
+                        buyers and sellers connect effortlessly.
+                    </p>
+
+                    <p>
+                        We focus on trust, innovation, luxury design,
+                        and high-quality user experiences.
+                    </p>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <h4>Trusted Listings</h4>
+
+                        <p>
+                            Every vehicle is reviewed for quality and authenticity.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <i class="fa-solid fa-car-side"></i>
+
+                        <h4>Luxury Collection</h4>
+
+                        <p>
+                            Explore the finest new and used premium cars.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <i class="fa-solid fa-headset"></i>
+
+                        <h4>24/7 Support</h4>
+
+                        <p>
+                            Dedicated customer support whenever you need help.
+                        </p>
+
+                    </div>
+
+                    <div class="feature-card">
+
+                        <i class="fa-solid fa-bolt"></i>
+
+                        <h4>Fast Experience</h4>
+
+                        <p>
+                            Smooth browsing and optimized responsive performance.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- =========================
+LEADERSHIP SECTION
+========================= -->
+
+<section class="leadership-section">
+
+    <div class="section-header">
+
+        <h2>Leadership Experience</h2>
+
+        <p>
+            Meet the innovators shaping the future of luxury automobile trading.
+        </p>
+
+    </div>
+
+    <div class="leadership-grid">
+
+        <!-- MEMBER 1 -->
+
+        <div class="leader-card">
+
+            <div class="leader-image">
+                <img src="https://img.magnific.com/premium-photo/portrait-employee-mature-man-boardroom-smile-ceo-corporate-auditor-office-bookkeeper-person-table-business-meeting-collaboration-with-planning-project-growth_590464-354399.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+            </div>
+
+            <div class="leader-content">
+
+                <span class="leader-role">
+                    Founder & CEO
+                </span>
+
+                <h3>Michael Carter</h3>
+
+                <p>
+                    Visionary entrepreneur focused on redefining premium
+                    automobile marketplaces through innovation and trust.
+                </p>
+
+                <div class="leader-socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MEMBER 2 -->
+
+        <div class="leader-card active-card">
+
+            <div class="leader-image">
+                <img src="https://lighthouse.mq.edu.au/__data/assets/image/0004/917194/women-ceo-tile700x400.jpg" alt="">
+            </div>
+
+            <div class="leader-content">
+
+                <span class="leader-role">
+                    Creative Director
+                </span>
+
+                <h3>Sophia Reynolds</h3>
+
+                <p>
+                    Expert in luxury digital experiences and high-end brand
+                    storytelling for premium automotive audiences.
+                </p>
+
+                <div class="leader-socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MEMBER 3 -->
+
+        <div class="leader-card">
+
+            <div class="leader-image">
+                <img src="https://t3.ftcdn.net/jpg/01/80/80/28/360_F_180802852_C3Zm4g9avBz5osPEA769dF0KKp5cQZYT.jpg" alt="">
+            </div>
+
+            <div class="leader-content">
+
+                <span class="leader-role">
+                    Marketplace Director
+                </span>
+
+                <h3>Daniel Brooks</h3>
+
+                <p>
+                    Oversees dealer partnerships and ensures every listing
+                    meets AutoVault's premium standards.
+                </p>
+
+                <div class="leader-socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="container footer-wrapper">
+
+        <!-- LEFT -->
+
+        <div class="footer-brand">
+
+            <h2>
+                Auto<span>Vault</span>
+            </h2>
+
+            <p>
+                Where luxury meets performance. Discover premium vehicles,
+                trusted dealers, and an elite automobile marketplace experience.
+            </p>
+
+        </div>
+
+        <!-- CENTER -->
+
+        <div class="footer-links">
+
+            <h4>Quick Links</h4>
+
+            <a href="#">Home</a>
+            <a href="#inventory">Buy Cars</a>
+            <a href="#sell">Sell Cars</a>
+            <a href="#about">About Us</a>
+
+        </div>
+
+        <!-- RIGHT -->
+
+        <div class="footer-contact">
+
+            <h4>Stay Connected</h4>
+
+            <div class="footer-socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+            <p class="footer-tagline">
+                “Driven by Luxury. Powered by Trust.”
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM BAR -->
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 AutoVault — Crafted for premium automobile experiences.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+
+</html>
